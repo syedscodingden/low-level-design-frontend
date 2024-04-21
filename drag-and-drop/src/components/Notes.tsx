@@ -121,7 +121,6 @@ const Notes: React.FC<NotesProps> = ({ notes, setNotes }) => {
           currentRect?.top > otherRect.bottom
         );
       }
-
       return overlap;
     });
   };
